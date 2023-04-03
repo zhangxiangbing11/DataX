@@ -143,7 +143,7 @@ create table test.weather (ts timestamp, temperature int, humidity double) tags(
   * 必选：否
   * 默认值：1
 * ignoreTagsUnmatched
-  * 描述：当table为TDengine中的一张子表，table具有tag值。如果数据的tag值与table的tag值不想等，数据不写入到table中。
+  * 描述：当table为TDengine中的一张子表，table具有tag值。如果数据的tag值与table的tag值不相等，数据不写入到table中。
   * 必选：否
   * 默认值：false
 
